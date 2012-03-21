@@ -32,4 +32,3 @@ Line1: #x#      this is the dimensions of the map
 TTTTTTT
 TTTTTTT
 TTTTTTT         these are the T(tiles) on the map
-
