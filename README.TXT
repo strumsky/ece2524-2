@@ -26,3 +26,10 @@ B - bridge space
 
 The player can pass over earth and bridge spaces, but a water space
 cannot be occupied by the player.
+
+Map format:
+Line1: #x#      this is the dimensions of the map
+TTTTTTT
+TTTTTTT
+TTTTTTT         these are the T(tiles) on the map
+
