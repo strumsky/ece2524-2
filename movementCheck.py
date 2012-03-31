@@ -62,7 +62,10 @@ def movementCheck(args):
         desiredPosition[0] = currentXPosition + 1
         desiredPosition[1] = currentYPosition
 
-    stderr.write("\nDesired positoin: %d,%d is: %s\n" %(desiredPosition[0], desiredPosition[1], currentMap[desiredPosition[0]][desiredPosition[1]]))
+    # CHANGED  THE desiredPosition[ ]...IF INPUT  WAS 4 0 right...the desired postition was returning as 0 5, instead of 5 0
+    # When trying to move past the upper boundary and left boundary, the desired postition returns -1 instead of an error message 
+    # ORIGINAL INDEX VALUES                                             0                   1                              0                   1  
+    stderr.write("\nDesired positoin: %d,%d is: %s\n" %(desiredPosition[1], desiredPosition[0], currentMap[desiredPosition[1]][desiredPosition[0]]))
 
     if currentMap[desiredPosition[0]][desiredPosition[1]] == "E" or currentMap[desiredPosition[0]][desiredPosition[1]] == "B":
         acceptable = True
