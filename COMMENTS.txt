@@ -1,0 +1,16 @@
+Michael Strumsky
+04/02/12
+Comments on movementCheck.py
+Assignment 5
+
+
+1. You can have a different function take in the values of a specific map. This way there values could be outputed to other functions
+for part of the game. For example to determine how much natural resources or how to find the hidden treasure.
+
+2. Second, you can reduce the amount of code by just setting limits based on the maps limits and set if statements to ensure a person doesn't
+go off the map.
+
+3. Maybe, later on you can add different maps together with a different function.
+
+Overall, it's a good code just need to break down functionally so can optimize capabilities of the whole game. Based on the 
+Rules of Unix(specifically modularity).
